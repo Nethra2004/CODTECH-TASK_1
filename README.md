@@ -50,7 +50,7 @@ Access the public IP address of your EC2 instance in a web browser to confirm th
 
 The application is now accessible via the public IP address of your EC2 instance, demonstrating a successful deployment on AWS.
 
-### Linux Commands Used
+## Linux Commands Used
 
 ### Switching to the root user
 
