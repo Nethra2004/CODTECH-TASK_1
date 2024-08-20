@@ -50,6 +50,73 @@ Access the public IP address of your EC2 instance in a web browser to confirm th
 
 The application is now accessible via the public IP address of your EC2 instance, demonstrating a successful deployment on AWS.
 
+### Linux Commands Used
+
+### Switching to the root user
+
+sudo su -
+
+### Updating the system
+
+yum update -y
+
+### Installing the Apache HTTP Server
+
+yum install -y httpd
+
+### Checking the status of the Apache HTTP Server
+
+systemctl status httpd
+
+### Creating a directory named 'tech'
+
+mkdir tech
+
+### Navigating to the tech directory
+
+cd tech
+
+### Downloading the GitHub repository
+
+wget https://github.com/Nethra2004/Nethra-V_Portfolio.git
+
+### Downloading the ZIP archive of the repository
+
+wget https://github.com/Nethra2004/Nethra-V_Portfolio/archive/refs/heads/main.zip
+
+### Listing the files in the tech directory
+
+ls -lrt
+
+### Unzipping the downloaded ZIP archive
+
+unzip main.zip
+
+### Navigating to the unzipped directory
+
+cd Nethra-V_Portfolio-main
+
+### Moving all the files to the Apache web directory
+
+mv * /var/www/html/
+
+### Navigating to the Apache web directory
+
+cd /var/www/html
+
+### Listing files in the Apache web directory
+
+ls -lrt
+
+### Enabling the Apache HTTP Server to start on boot
+
+systemctl enable httpd
+
+### Starting the Apache HTTP Server
+
+systemctl start httpd
+
+
 ### Launching an EC2 Instance
 
 ![Screenshot (633)](https://github.com/user-attachments/assets/53a6bf0b-c704-421b-8d4e-9d78b9dd922f)
