@@ -49,3 +49,8 @@ Enable Apache HTTP Server to start on boot and start the service. This ensures t
 Access the public IP address of your EC2 instance in a web browser to confirm that the web application is being served correctly.
 
 The application is now accessible via the public IP address of your EC2 instance, demonstrating a successful deployment on AWS.
+
+
+![Screenshot (633)](https://github.com/user-attachments/assets/53a6bf0b-c704-421b-8d4e-9d78b9dd922f)
+
+
