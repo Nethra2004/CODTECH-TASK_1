@@ -20,31 +20,31 @@ This project involves deploying a web application to an Amazon Linux 2 instance 
   
 ## Detailed Procedure
 
-### System Update
+### Updating the System
 
 Ensure that your Amazon Linux 2 instance is running the latest software and security updates. This step prepares the environment for installing new software.
 
-### Apache HTTP Server Installation
+### Installing the Apache HTTP Server
 
 Install Apache HTTP Server (httpd) to handle HTTP requests and serve your web application to users.
 
-### Verify Apache Installation
+### Verifying the Apache Installation
 
 Check the status of the Apache service to confirm that it is installed correctly. The service might be inactive initially, but it will be addressed in subsequent steps.
 
-### Prepare Web Application Files
+### Preparing the Web Application Files
 
 Download or clone the web application files from a repository or ZIP archive. These files include `index.html`, `styles.css`, `script.js`, and image files.
 
-### Deploy Web Application
+### Deploying the Web Application
 
 Move the web application files to the `/var/www/html/` directory. This directory is used by Apache HTTP Server to serve web content.
 
-### Configure and Start Apache HTTP Server
+### Configuring and Starting the Apache HTTP Server
 
 Enable Apache HTTP Server to start on boot and start the service. This ensures that the server is running and serving your web application.
 
-### Verify Deployment
+### Verifying the Deployment
 
 Access the public IP address of your EC2 instance in a web browser to confirm that the web application is being served correctly.
 
