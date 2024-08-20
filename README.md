@@ -50,10 +50,17 @@ Access the public IP address of your EC2 instance in a web browser to confirm th
 
 The application is now accessible via the public IP address of your EC2 instance, demonstrating a successful deployment on AWS.
 
+### Launching an EC2 Instance
 
 ![Screenshot (633)](https://github.com/user-attachments/assets/53a6bf0b-c704-421b-8d4e-9d78b9dd922f)
 
+### Establishing SSH Connection to an EC2 Instance in AWS Console
 
 ![Screenshot (634)](https://github.com/user-attachments/assets/6f6f55d8-8ca2-4e50-a3ee-09336700c79a)
+
+### Deploying the Web Application
+
+![Screenshot (635)](https://github.com/user-attachments/assets/ca501fe5-7d34-4e11-82d2-8f9c769f94af)
+
 
 
